@@ -1,166 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air BnB Web Static</title>
-    <link rel="stylesheet" href="styles/4-common.css">
-    <link rel="stylesheet" href="styles/6-filters.css">
-    <link rel="stylesheet" href="styles/3-header.css">
-    <link rel="stylesheet" href="styles/3-footer.css">
-    <link rel="stylesheet" href="styles/100-places.css">
-    <link rel="icon" type="image/png" href="images/icon_bath.png">
-    <link rel="icon" type="image/png" href="images/icon_bed.png">
-    <link rel="icon" type="image/png" href="images/icon_group.png">
-    <link rel="icon" type="image/png" href="images/icon_bath.png">
-    <link rel="icon" href="images/icon.png">
-</head>
-<body>
-    <header>
-        <div class="logo"></div>
-    </header>
-    <div class="container">
-        <section class="filter">
-          
-            <button>Search</button>
-            <div class="locations">
-                <h3>States</h3>
-                <h4>Carlifornia, Los Angeles</h4>
-                <div>
-                    <ul class="popover">
-                        <h2>Arizona:</h2>
-                        <li>page</li>
-                        <li>page2</li>
-                        <br>
-                        <h2>Carlifonia:</h2>
-                        <li>San fransisco</li>
-                        <li>Los Angeles</li>
-                        
-                    </ul>
-                </div>
-            </div>
-            <div class="amenities">
-                <h3>Amenities</h3>
-                <h4>Internet, kitchen</h4>
-                <div>
-                <ul class="popover">
-                    <li>Internet</li>
-                    <li>Tv</li>
-                    <li>kitchen</li>
-                    <li>Iron</li>
-                </ul>
-                </div>
-            </div>
-        </section>
-        <section class="places">
-            <h1>Places</h1>
-            <div class="article">
-                <article>
-                    <h2>My Home</h2>
-                    <div class="price_by_night">$80</div>
-                    <div class="information">
-                        <div class="max_guest"><p>3 guests</p></div>
-                        <div class="number_rooms"><p>3 bedroom</p></div>
-                        <div class="number_bathrooms"><p>2 bathrooms</p></div>
-                    </div>
-                    <div class="user">
-                        <strong>Owner:</strong>
-                        <p>Michael Scotfield</p>
-                    </div>
-                    <div class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Eum cum odit magnam.
-                    </div>
-                   <div class="amenities">
-                    <h2>Amenities</h2>
-                    <ul>
-                        <li class="tv"><p>Tv</p></li>
-                        <li class="wifi"><p>WiFi</p></li>
-                        <li class="pet"><p>Pet</p></li>
-                    </ul>
-                    <div class="reviews">
-                        <h2>2 Reviews</h2>
-                        <ul>
-                            <li><h3>“From Bob Dylan the 27th January 2017”</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, illo!</p></li>
-                            <li><h3>“From Bob Dylan the 27th January 2017”</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, illo!</p></li>
-                        </ul>
-                    </div>
-                   </div>
-                </article>
-                <article>
-                    <h2>Tiny house</h2>
-                    <div class="price_by_night">$65</div>
-                    <div class="information">
-                        <div class="max_guest"><p>4 guest</p></div>
-                        <div class="number_rooms"><p>1 bedroom</p></div>
-                        <div class="number_bathrooms"><p>2 bathrooms</p></div>
-                    </div>
-                    <div class="user">
-                        <strong>Owner:</strong>
-                        <p>Lincon Borrows</p>
-                    </div>
-                    <div class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Eum cum odit magnam.
-                    </div>
-                    <div class="amenities">
-                        <h2>Amenities</h2>
-                        <ul>
-                            <li class="tv"><p>Tv</p></li>
-                            <li class="wifi"><p>WiFi</p></li>
-                            <li class="pet"><p>Pet</p></li>
-                        </ul>
-                        <div class="reviews">
-                            <h2>2 Reviews</h2>
-                            <ul>
-                                <li><h3>“From Bob Dylan the 27th January 2017”</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, illo!</p></li>
-                                <li><h3>“From Bob Dylan the 27th January 2017”</h3>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, illo!</p></li>
-                            </ul>
-                        </div>
-                       </div>
-                </article>
-                <article>
-                    <h2>A suite</h2>
-                    <div class="price_by_night">$190</div>
-                    <div class="information">
-                        <div class="max_guest"><p>3 guest</p></div>
-                        <div class="number_rooms"><p>3 bedroom</p></div>
-                        <div class="number_bathrooms"><p>3 bathrooms</p></div>
-                    </div>
-                   
-                        <div class="user">
-                            <strong>Owner:</strong>
-                            <p>Alex Mahon</p>
-                        </div>
-                        <div class="description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Eum cum odit magnam.
-                        </div>
-                        <div class="amenities">
-                            <h2>Amenities</h2>
-                            <ul>
-                                <li class="tv"><p>Tv</p></li>
-                                <li class="wifi"><p>WiFi</p></li>
-                                <li class="pet"><p>Pet</p></li>
-                            </ul>
-                            <div class="reviews">
-                                <h2>2 Reviews</h2>
-                                <ul>
-                                    <li><h3>“From Bob Dylan the 27th January 2017”</h3>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, illo!</p></li>
-                                    <li><h3>“From Bob Dylan the 27th January 2017”</h3>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, illo!</p></li>
-                                </ul>
-                            </div>
-                           </div>
-                </article>
-            </div>
-        </section>
-    </div>
-    <footer>Best School</footer>
-</body>
-</html>
+.places {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+}
+
+article h2 {
+    font-size: 30px;
+}
+
+.price_by_night {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    line-height: 60px;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    line-height: 140px;
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    background-position: 50% 5px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    margin: auto;
+}
+
+
+.max_guest {
+    background-image: url("../images/icon_group.png");
+
+}
+
+.number_rooms {
+    background-image: url("../images/icon_bed.png");
+}
+
+.number_bathrooms {
+    background-image: url("../images/icon_bath.png");
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user p {
+    margin-left: 20px;
+}
+
+.user,
+.description {
+
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+article .amenities,
+article .reviews {
+    margin-top: 40px;
+    width: 100%;
+    text-align: left;
+}
+
+.amenities h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.amenities ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+article .amenities ul {
+    margin-top: 20px;
+    margin: auto;
+}
+
+
+
+.amenities ul .tv {
+    background-image: url("../images/icon_tv.png");
+}
+
+.amenities ul .wifi {
+    background-image: url("../images/icon_wifi.png");
+}
+
+.amenities ul .pet {
+    background-image: url("../images/icon_pets.png");
+}
+
+.amenities ul .tv,
+.amenities ul .wifi,
+.amenities ul .pet {
+    line-height: 40px;
+    width: 30px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%, 5px;
+    font-size: 20px;
+    display: block;
+}
+
+.reviews h3 {
+    font-size: 14px;
+}
+
+.reviews p {
+    font-size: 12px;
+}
